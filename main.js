@@ -18,11 +18,15 @@ if (hours < 10) {
 }
 
 var time = hours + ":" + minutes + ":" + seconds;
-
-
+var hex ="#"+hours+minutes+seconds;
 
 $('.date').text(time);
+$('.hex').text(hex);
+
+$('.wrapper').css("background-color",hex);
 
 
 
 } ,1000);
+
+// ==================================================

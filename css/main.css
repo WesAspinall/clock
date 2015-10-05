@@ -1,24 +1,26 @@
 .wrapper {
-  background-image: url(http://dailytrojan.com/wp-content/uploads/2013/09/web-2Chainz.jpg);  
+  background-image: url(http://www.officialpsds.com/images/thumbs/2-Chainz-psd83906.png);  
   background-repeat: no-repeat;
-  background-position: right;
+  background-size: 40%;
+  background-position: right bottom;
   height: 800px;
   width: 100%;
   border: 1px solid black; 
   text-align: left;
 }
 
-.date {
+.date ,.hex{
   font-family: 'Permanent Marker', cursive;
   padding-left: 100px;
   font-size: 7em;
-  text-shadow: 1px 1px 4px red;
+  text-shadow: 1px 1px 4px white;
 }
 
 
 p{
   font-size: 4em;
   font-family: 'Permanent Marker' cursive;
-  text-shadow: 1px 1px 4px green;
+  text-shadow: 1px 1px 4px white;
+  padding-left: 200px;
 
 }

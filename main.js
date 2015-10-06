@@ -6,9 +6,18 @@ var minutes = today.getMinutes();
 var seconds = today.getSeconds();
 
 
-var hoursHex= today.getHours().toString(16);
-var minutesHex= today.getMinutes().toString(16);
-var secondsHex= today.getSeconds().toString(16);
+var hoursHex= formatTime(today.getHours());
+var minutesHex= formatTime(today.getMinutes());
+var secondsHex= formatTime(today.getSeconds());
+
+
+//used a turnary instead of an if statement for brevity
+//function formatTime takes a number, converts that number to a string
+function formatTime (num) {
+  var hex= num.toString(16)
+  hex = hex.length === 2 ? hex: "0"+ hex;
+  return hex;
+}
 
 if (hours < 10) {
    hours = "0" + hours;
@@ -20,18 +29,6 @@ if (hours < 10) {
 
  if (seconds < 10) {
    seconds = "0" + seconds;
-}
-
-if (hoursHex < 10) {
-   hoursHex = "0" + hoursHex;
-}
-
- if (minutesHex < 10) {
-   minutesHex = "0" + minutesHex;
-}
-
- if (secondsHex < 10) {
-   secondsHex = "0" + secondsHex;
 }
 
 

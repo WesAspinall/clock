@@ -10,17 +10,19 @@
 }
 
 .date ,.hex{
-  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
   padding-left: 100px;
   font-size: 7em;
-  text-shadow: 1px 1px 4px white;
+  text-shadow: 1px 1px 4px black;
 }
 
 
 p{
+  color: white;
   font-size: 4em;
-  font-family: 'Permanent Marker' cursive;
-  text-shadow: 1px 1px 4px white;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 1px 1px 4px black;
   padding-left: 200px;
 
 }
